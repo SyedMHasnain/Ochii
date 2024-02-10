@@ -7,3 +7,42 @@
   margin: 0px;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'founder-medium';
+  src: url('./../../public/FoundersGroteskXCond-Bold.otf') format('otf'),
+
+    
+
+}
+
+/* Optionally, you can apply the font to specific elements */
+.font1 {
+  font-family: 'founder-medium', "founder-grotesk";
+}
+
+
+
+
+
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__fadeInLeft{
+  --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+@media (max-width:1020px) {
+ .menu-container{
+  
+   display: none;
+ }
+    
+  
+}
+@media (max-width:1020px) {
+ 
+.menu-icon {
+    display: block;
+
+  }
+}

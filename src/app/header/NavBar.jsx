@@ -1,11 +1,12 @@
 import React from 'react'
-// NeueMontreal-Regular
+import { CiMenuFries } from "react-icons/ci";
+
 //  FoundersGrotesk - Semibold;
 function NavBar() {
   return (
-    <div className="flex justify-between px-10 py-10 font-[' NeueMontreal-Regular']">
+    <div className=" flex justify-between px-10 py-10 font-['NeueMontrealRegular']">
       <div className="">
-        <a class="inline-flex"  >
+        <a class="inline-flex">
           <svg
             width="72"
             height="30"
@@ -32,14 +33,24 @@ function NavBar() {
       </div>
 
       <div className="flex gap-5 ">
-        {["Services ", "OurWork", "Aboutus", "Insight","Contact"].map((item, index) => (
-          <a className={`text-[1vw] font-light ${index === 4 && "ml-16"}`} key={index}>
-            {item}
-          </a>
-        ))}
-        <div className=''>
-       
-        </div>
+        {["Services ", "OurWork", "About Us", "Insight", "Contact"].map(
+          (item, index) => {
+            return (
+              <a
+                className={`text-lg  menu-container leading-3
+               font-light ${index === 4 && "ml-20"}`}
+                key={index}>
+                {item}
+                
+              </a>
+            );
+          }
+        )}
+
+        <h1 className=' text-lg menu-icon '>  
+
+          <CiMenuFries />
+        </h1>
       </div>
     </div>
   );
