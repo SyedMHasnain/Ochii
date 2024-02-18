@@ -23,7 +23,7 @@ function Landing() {
 
       <div className="py-[6.5vw]">
         <hr />
-        <div className="flex justify-between px-6 py-3">
+        <div className="flex  flex-wrap justify-between px-6 py-3">
           {[
             "For publice and private companies",
             "From the first pitch to IPO",
@@ -31,7 +31,7 @@ function Landing() {
             return (
               <h4
                 key={index}
-                className="text-[1vw] font-light tracking-tight leading-none text-md">
+                className="text-[1vw]  font-light tracking-tight leading-none text-md">
                 {item}
               </h4>
             );
