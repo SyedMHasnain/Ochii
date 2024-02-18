@@ -23,7 +23,7 @@ function Landing() {
 
       <div className="py-[6.5vw]">
         <hr />
-        <div className="flex  flex-wrap justify-between px-6 py-3">
+        <div className="landing-footer flex  flex-wrap justify-between  px-6 py-3">
           {[
             "For publice and private companies",
             "From the first pitch to IPO",
@@ -31,16 +31,17 @@ function Landing() {
             return (
               <h4
                 key={index}
-                className="text-[1vw]  font-light tracking-tight leading-none text-md">
+                className="text-sm mb-2 font-light tracking-tight leading-none text-md">
                 {item}
               </h4>
             );
           })}
           <div className="flex gap-2 justify-center  ">
-            <h2 className=" border-[0.1vw] p-1 px-3 text-sm rounded-3xl hover:bg-white hover:text-black ">
+            <h2 className=" border-[0.1vw] p-2  text-sm rounded-3xl hover:bg-white hover:text-black ">
               START THE PROJECT
             </h2>
-            <h5 className="rounded-full border-[1px] p-2 hover:bg-white hover:text-black">
+
+            <h5 className="arrow-icon rounded-full border-[1px] p-2 hover:bg-white hover:text-black">
               <MdArrowOutward />
             </h5>
           </div>

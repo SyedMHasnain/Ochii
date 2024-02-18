@@ -2,16 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: 'founder-medium';
   src: url('./../../public/FoundersGroteskXCond-Bold.otf') format('otf'),
 
-    
+
 
 }
 
@@ -26,28 +27,36 @@
 
 
 /* This only changes this particular animation duration */
-.animate__animated.animate__fadeInLeft{
+.animate__animated.animate__fadeInLeft {
   --animate-duration: 2s;
 }
 
 /* This changes all the animations globally */
-@media (max-width:1020px) {
- .menu-container{
-  
-   display: none;
- }
-}
-     @media (max-width:1020px) {
-      .textcenter{
-          justify-content: center;
-          align-items: center;
-      }
-  
-}
-@media (max-width:1020px) {
- 
-.menu-icon {
-    display: block;
 
+@media (max-width:1020px) {
+  .menu-container {
+
+    display: none;
   }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
+
+  .textcenter {
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
 }
+/* @media (max-width:600px){
+  
+.landong-footer{
+flex-direction: column;
+}
+} */
