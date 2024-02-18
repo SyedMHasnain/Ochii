@@ -54,9 +54,15 @@
 
  
 }
-/* @media (max-width:600px){
+@media (max-width:600px){
   
-.landong-footer{
-flex-direction: column;
+.landing-footer{
+display: block;
+margin-right: 100px;
+margin-top: 10px;
 }
-} */
+.arrow-icon {
+  display: none;
+}
+
+}
