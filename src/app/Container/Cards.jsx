@@ -10,7 +10,9 @@ function Cards() {
       </div>
       <div className="px-20">
         <div className=" flex gap-10 pt-6">
-          <div className="w-1/2 rounded-xl h-[80vh] bg-slate-400"></div>
+          <div className="w-1/2 rounded-xl h-[80vh] overflow-hidden">
+            <div className='w-full h-full bg-green-700 scale-50'></div>
+          </div>
           <div className="w-1/2 h-[80vh] rounded-xl bg-slate-400"></div>
         </div>
       </div>
