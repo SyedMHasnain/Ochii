@@ -7,8 +7,8 @@ import { MdArrowOutward } from "react-icons/md";
 //animate__fadeInLeft
 function Landing() {
   return (
-    <div className=" w-full  bg-zinc-900 ">
-      <div className=' mr-[6vw] py-16 px-16 text-[6vw]  leading-[5.5vw]  font-["Founders_Grotesk"] '>
+    <div className=" w-full  bg-zinc-900 pt-1  ">
+      <div className='ml-16 mt-48 text-[6vw] leading-[5.5vw]  font-["Founders_Grotesk"] '>
         <h1>WE CREATE </h1>
         <div className="flex">
           <Image

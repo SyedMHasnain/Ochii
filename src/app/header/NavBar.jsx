@@ -4,8 +4,9 @@ import { CiMenuFries } from "react-icons/ci";
 //  FoundersGrotesk - Semibold;
 function NavBar() {
   return (
-    <div className=" flex justify-between px-10 py-10 font-['NeueMontrealRegular']">
-      <div className="">
+
+    <div className="fixed z-[999] w-full  flex justify-between px-10 py-20 font-['NeueMontrealRegular']">
+      <div className="logo">
         <a class="inline-flex">
           <svg
             width="72"
