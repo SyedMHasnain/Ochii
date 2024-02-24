@@ -5,7 +5,8 @@ import Marquee from './Container/Marque'
 import Details from './Container/Details'
 import Eyes from './Container/Eyes'
 import Cards from './Container/Cards'
-import Cardlist from './Container/cardlist'
+import Cardlast from './Container/Cardlast'
+
 
 function page() {
   return (
@@ -16,7 +17,8 @@ function page() {
         <Details/>
         <Eyes/>
        <Cards/> 
-       <Cardlist/>
+       <Cardlast/>
+      
            </div>
   )
 }

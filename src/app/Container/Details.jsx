@@ -36,7 +36,7 @@ const Details=()=>{
 
       {/* image  */}
 
-      <div className="flex p-20  pt-5 ml-5 ">
+      <div className=" pt-5 ml-5 ">
         <Image className='rounded-3xl '
           src={imgperson}
           width={500}

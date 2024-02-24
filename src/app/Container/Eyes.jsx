@@ -11,7 +11,7 @@ function Eyes() {
         <div className="absolute flex gap-4 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]  ">
           {/* eyes Ball inside */}
 
-          <div className="flex items-center justify-center w-[11vw] h-[22vh] rounded-full bg-white">
+          <div className="flex items-center justify-center w-[11vw] h-[22vh] rounded-full flex-grow bg-white">
             <div className=" flex items-center justify-center w-1/2 h-1/2 rounded-full bg-black">
               <div className=" w-[1vw] h-[1vw] rounded-full  bg-white">
                 {/* inside eyes  */}
