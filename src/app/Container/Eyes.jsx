@@ -6,7 +6,7 @@ import React from "react";
 function Eyes() {
   return (
     <div className="w-full h-full overflow-hidden">
-      <div className='relative w-full h-full bg-cover bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
+      <div className='relative w-full h-full bg-cover  bg-center bg-[url("https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg")]'>
 
         <div className="absolute flex gap-4 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]  ">
           {/* eyes Ball inside */}

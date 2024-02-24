@@ -11,12 +11,8 @@
 @font-face {
   font-family: 'founder-medium';
   src: url('./../../public/FoundersGroteskXCond-Bold.otf') format('otf'),
-
-
-
 }
 
-/* Optionally, you can apply the font to specific elements */
 .font1 {
   font-family: 'founder-medium', "founder-grotesk";
 }
@@ -46,7 +42,10 @@
   .arrow-icon {
     display: none;
   }
-
+.card {
+  flex-wrap: wrap;
+  
+}
   .textcenter {
     justify-content: center;
     align-items: center;
@@ -64,6 +63,7 @@ margin-top: 10px;
 .arrow-icon {
   display: none;
 }
+
 
 }
 

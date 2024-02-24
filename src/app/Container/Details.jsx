@@ -7,7 +7,7 @@ import { RxArrowTopRight } from "react-icons/rx";
 
 const Details=()=>{
   return (
-    <div className="w-full   bg-[#CDEA68]  text-black ">
+    <div className="w-full h-full bg-[#CDEA68]  text-black ">
     
       <div className=' leading-none  p-20 font-["NeueMontrealRegular"]  text-[3.9vw]  border-b-[1px]  border-zinc-900 '>
         <p>
@@ -24,7 +24,7 @@ const Details=()=>{
         </h1>
 
 
-        <div className="mt-[2vw] w-50 border-2 flex px-6 py-4 border-black rounded-full bg-black text-white  justify-between align-middle p-3">
+        <div className="mt-[2vw]   border-2 flex px-6 py-4 border-black rounded-full bg-black text-white  justify-between align-middle p-3">
           <h2 className="text-base text-center ">READ MORE </h2>
           {/* icon here */}
           <RxArrowTopRight className=" items-center p-1 text-black bg-white rounded-full" />
@@ -36,8 +36,8 @@ const Details=()=>{
 
       {/* image  */}
 
-      <div className="flex  pt-5 ml-5 ">
-        <Image className='rounded-3xl'
+      <div className="flex p-20  pt-5 ml-5 ">
+        <Image className='rounded-3xl '
           src={imgperson}
           width={500}
           height={300}
