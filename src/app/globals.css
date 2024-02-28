@@ -19,7 +19,10 @@
 
 
 
-
+.flexx{
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* This only changes this particular animation duration */
@@ -39,16 +42,24 @@
     display: block;
   }
 
-  .arrow-icon {
-    display: none;
+  .wh {
+    width: 100%;
   }
-.card {
-  flex-wrap: wrap;
   
-}
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrap{
+    flex-wrap: wrap;
+
+  }
   .textcenter {
     justify-content: center;
     align-items: center;
+  }
+  .px{
+    margin: 0vw 5vw 5vw;
   }
 
  
@@ -62,6 +73,10 @@ margin-top: 10px;
 }
 .arrow-icon {
   display: none;
+}
+.px6{
+  flex-wrap: wrap;
+
 }
 
 

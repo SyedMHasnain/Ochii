@@ -9,7 +9,7 @@ const Details=()=>{
   return (
     <div className="w-full h-full bg-[#CDEA68]  text-black ">
     
-      <div className=' leading-none  p-20 font-["NeueMontrealRegular"]  text-[3.9vw]  border-b-[1px]  border-zinc-900 '>
+      <div className=' leading-none  p-14 font-["NeueMontrealRegular"]  text-[5vw]  border-b-[1px]  border-zinc-900 '>
         <p>
           Ochi is a strategic partner for fast-growing tech businesses that need
           to <u>raise funds, sell products, explain complex ideas,</u>
@@ -17,7 +17,7 @@ const Details=()=>{
         </p>
       </div>
 
-    <div className=' textcenter flex justify-between p-14 flex-wrap'>
+    <div className=' flex justify-between p-14 flex-wrap'>
      <div className="text-3xl font-medium   ">
         <h1>
           <span className="text-4xl">O</span>ur approuch:

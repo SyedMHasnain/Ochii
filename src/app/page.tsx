@@ -10,7 +10,7 @@ import Cardlast from './Container/Cardlast'
 
 function page() {
   return (
-    <div className='w-full h-screen text-white bg-zinc-900'>
+    <div className='w-full h-screen text-white bg-zinc-900 '>
         <NavBar/>
         <Landing/>
         <Marquee/>
