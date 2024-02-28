@@ -7,7 +7,7 @@ import { RxArrowTopRight } from "react-icons/rx";
 
 const Details=()=>{
   return (
-    <div className="w-full h-full bg-[#CDEA68]  text-black ">
+    <div className="w-full  bg-[#CDEA68]  text-black ">
     
       <div className=' leading-none  p-14 font-["NeueMontrealRegular"]  text-[5vw]  border-b-[1px]  border-zinc-900 '>
         <p>
