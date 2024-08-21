@@ -33,7 +33,7 @@ function NavBar() {
         </a>
       </div>
 
-      <div className="flex gap-5 ">
+      <div className="flex gap-5  mb-6 ">
         {["Services ", "OurWork", "About Us", "Insight", "Contact"].map(
           (item, index) => {
             return (
