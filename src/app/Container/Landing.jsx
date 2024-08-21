@@ -7,18 +7,22 @@ import { MdArrowOutward } from "react-icons/md";
 //animate__fadeInLeft
 function Landing() {
   return (
-    <div className=" w-full  bg-zinc-900 pt-1  ">
+    <div className=" headingfont w-full  bg-zinc-900 pt-1  ">
       <div className='ml-16 mt-48 text-[6vw] leading-[5.5vw]  font-["Founders_Grotesk"] '>
-        <h1>WE CREATE </h1>
+        <h1 className="  ">WE CREATE </h1>
         <div className="flex">
           <Image
             src={land}
-            className=" animate__animated animate__fadeInLeft mt-[0.2%] 
+            className="imageicon  animate__animated animate__fadeInLeft mt-[0.2%] 
             w-[9vw] h-[5vw] rounded-lg "
           />
-           <h1 className='ml-[0.5%]'>EYE-OPENING </h1>
+          <h1 className="headingfont  ml-[0.5%]">EYE-OPENING </h1>
         </div>
-        <h1 className='font-["Founders_Grotesk"]'>PRESENTATIONS</h1>
+        <h1
+          className='headingfont 
+        font-["Founders_Grotesk"]'>
+          PRESENTATIONS
+        </h1>
       </div>
 
       <div className="py-[6.5vw]">

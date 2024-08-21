@@ -64,8 +64,16 @@
 
  
 }
-@media (max-width:600px){
+@media (max-width:700px){
   
+   .headingfont{
+    font-size:30px;
+    margin-top: 0px;}
+ 
+ .imageicon{
+  display: none;
+ }
+   
 .landing-footer{
 display: block;
 margin-right: 100px;
