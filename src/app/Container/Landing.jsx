@@ -7,25 +7,25 @@ import { MdArrowOutward } from "react-icons/md";
 //animate__fadeInLeft
 function Landing() {
   return (
-    <div className=" headingfont w-full  bg-zinc-900 pt-1  ">
-      <div className='ml-16 mt-48 text-[6vw] leading-[5.5vw]  font-["Founders_Grotesk"] '>
-        <h1 className="  ">WE CREATE </h1>
-        <div className="flex">
+    <div className=" headingfont w-full   bg-zinc-900 pt-1  ">
+      <div className='mt-32 ml-8   w-1/2  font-["Founders_Grotesk"] '>
+        <h1 className=" mt-10  text-7xl font-['Founders_Grotesk']">WE CREATE </h1>
+        <h1 className="headingfont text-7xl font-['Founders_Grotesk']">EYE-OPENING</h1>
+        <h1 className='headingfont text-7xl font-["Founders_Grotesk"]'>
+          PRESENTATIONS
+        </h1>
+      </div>
+      <div className='ml-16 mt-40  head text-[6vw] leading-[5.5vw]  font-["Founders_Grotesk"] '>
+        {/* <div className="flex">
           <Image
             src={land}
             className="imageicon  animate__animated animate__fadeInLeft mt-[0.2%] 
             w-[9vw] h-[5vw] rounded-lg "
           />
-          <h1 className="headingfont  ml-[0.5%]">EYE-OPENING </h1>
-        </div>
-        <h1
-          className='headingfont 
-        font-["Founders_Grotesk"]'>
-          PRESENTATIONS
-        </h1>
+        </div> */}
       </div>
 
-      <div className="py-[6.5vw]">
+      <div className="py-[4.1vw]">
         <hr />
         <div className=" flex flex-wrap justify-between  align-middle px-6 py-3 ">
           {[
