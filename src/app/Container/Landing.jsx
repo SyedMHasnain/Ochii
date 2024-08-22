@@ -1,16 +1,27 @@
+"use client";
 import Image from 'next/image';
 import React from 'react'
-import land from '../../../public/land.jpg'
 import "animate.css";
 import { MdArrowOutward } from "react-icons/md";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { easeIn } from 'framer-motion/dom';
 
 //animate__fadeInLeft
 function Landing() {
+   
   return (
-    <div className=" headingfont w-full   bg-zinc-900 pt-1  ">
-      <div className='mt-32 ml-8   w-1/2  font-["Founders_Grotesk"] '>
-        <h1 className=" mt-10  text-7xl font-['Founders_Grotesk']">WE CREATE </h1>
-        <h1 className="headingfont text-7xl font-['Founders_Grotesk']">EYE-OPENING</h1>
+    <div className=" headingfont w-full  flex flex-col  bg-zinc-900 pt-1  ">
+      <div className=' flex flex-col   mt-3  ml-8   w-5/6 font-["Founders_Grotesk"] mt-60 '>
+        <h1 className='  headingfont text-7xl font-["Founders_Grotesk"]'>
+          WE CREATE
+        </h1>
+        <motion.h1
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, ease: "easeIn", delay: 0.1 }}
+          className="headingfont font-['Founders_Grotesk'] text-7xl   ">
+          EYE-OPENING
+        </motion.h1>
         <h1 className='headingfont text-7xl font-["Founders_Grotesk"]'>
           PRESENTATIONS
         </h1>
@@ -25,7 +36,7 @@ function Landing() {
         </div> */}
       </div>
 
-      <div className="py-[4.1vw]">
+      <div className="headingfont">
         <hr />
         <div className=" flex flex-wrap justify-between  align-middle px-6 py-3 ">
           {[
@@ -35,7 +46,7 @@ function Landing() {
             return (
               <h4
                 key={index}
-                className="mt-3 mr-22 text-sm  font-light tracking-tight leading-none text-md">
+                className="font-['Founders_Grotesk'] mt-3 mr-22 text-base  font-light tracking-tight leading-none text-md">
                 {item}
               </h4>
             );
