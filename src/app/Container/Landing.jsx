@@ -27,13 +27,7 @@ function Landing() {
         </h1>
       </div>
       <div className='ml-16 mt-40  head text-[6vw] leading-[5.5vw]  font-["Founders_Grotesk"] '>
-        {/* <div className="flex">
-          <Image
-            src={land}
-            className="imageicon  animate__animated animate__fadeInLeft mt-[0.2%] 
-            w-[9vw] h-[5vw] rounded-lg "
-          />
-        </div> */}
+       
       </div>
 
       <div className="headingfont">

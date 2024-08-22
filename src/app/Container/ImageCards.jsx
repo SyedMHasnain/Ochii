@@ -1,7 +1,8 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { motion } from "framer-motion";
 
-
-function Cards() {
+function ImageCards() {
   return (
     <div className="  w-full  bg-zinc-800  pb-32">
       <div className="border-b-[1px]">
@@ -13,32 +14,28 @@ function Cards() {
       <div className=" w-full h-full px-10   ">
         <div className="card flex  gap-10 pt-10">
           {/* card1 start  */}
-          <div className=" cardscontainer  w-[60vw] rounded-xl   overflow-hidden ">
-            <div className=" ">
-              <img
-                className=" w-full h-full "
-                src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
-              />
-            </div>
-          </div>
+          <motion.div
+            whileHover={{ scale: 1.1 }}
+            className=" cardscontainer  w-[60vw] rounded-xl   overflow-hidden ">
+            <img
+              src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
+            />
+          </motion.div>
           {/* card1 end  */}
 
-          <div className="cardscontainer w-[60vw]  rounded-xl bg-slate-400 overflow-hidden ">
-            <div className=" ">
+          <motion.div whileHover={{ scale: 1.1 }}  className="cardscontainer w-[60vw]  rounded-xl bg-slate-400 overflow-hidden ">
+            <div>
               <img
                 className=" w-full h-full "
                 src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"
                 alt=""
               />
             </div>
-          </div>
-
-
-          
+          </motion.div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Cards
+export default ImageCards;

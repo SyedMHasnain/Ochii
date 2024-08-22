@@ -1,11 +1,14 @@
+"use client";
 import React from 'react'
-
+import {motion} from 'framer-motion'
 function Button(props) {
   return (
     <div className='w-full h full'>
-      <button className=' w-full h-10  p-2  text-[14px] '  >
+      <motion.button whileTap={{scale:0.9}}
+      whileHover={{scale:1.1}} 
+      className=' w-full h-10  p-3  text-[14px] '  >
       {props.title}
-      </button>
+      </motion.button>
     </div>
   )
 }

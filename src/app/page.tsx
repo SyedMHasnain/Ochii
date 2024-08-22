@@ -4,7 +4,7 @@ import Landing from './Container/Landing'
 import Marquee from './Container/Marque'
 import Details from './Container/Details'
 import Eyes from './Container/Eyes'
-import Cards from './Container/Cards'
+import Cards from './Container/ImageCards'
 import Cardlast from './Container/Cardlast'
 
 

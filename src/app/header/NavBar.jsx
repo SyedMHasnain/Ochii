@@ -1,14 +1,14 @@
-
 "use client";
 
 import Link from "next/link";
 import React, { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-
+  
   const data = [
     { name: "Home", link: "/" },
     { name: "About", link: "/About" },
@@ -27,11 +27,12 @@ const Header = () => {
 
   return (
     <>
+  
       {/* Navbar */}
       <div className="flex-1 fixed top-0 left-0 w-full p-5 bg-transparent z-50">
         <div className="flex justify-between">
           <Link href="/">
-            <div >
+            <div>
               <a class="inline-flex">
                 <svg
                   width="72"
@@ -66,23 +67,25 @@ const Header = () => {
             />
             <div
               id="mySidenav"
-              className={`fixed top-0 right-0 h-full bg-black text-white   transition-all duration-300 
+              className={`fixed top-0 right-0 h-full bg-black bg-opacity-85 text-white   transition-all duration-300 
               ${open ? "w-64" : "w-0"}`}>
               <IoMdClose
                 className="navclose  w-10 p-1 rounded-full hover:bg-[#f7c17b] hover:text-black
-                ml-2 text-[2vw] mt-5 bg-white text-black"
+                ml-2 text-2xl mt-5 bg-white text-black"
                 onClick={closeNav}
               />
 
               <div className="mt-5">
                 {data.map((item, index) => (
                   <Link key={index} href={item.link}>
-                    <h4
+                    <motion.h4
+                      whileHover={{ scale: 1.1, x: 10 }}
+                      whileTap={{ scale: 0.9 }}
                       className="navbar-link cursor-pointer text-lg ml-5
         p-3 hover:text-[#f7c17b] hover:underline hover:underline-offset-2
         transition-all duration-300 ease-in-out">
                       {item.name}
-                    </h4>
+                    </motion.h4>
                   </Link>
                 ))}
               </div>
